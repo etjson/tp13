@@ -10,4 +10,4 @@
 // +----------------------------------------------------------------------
 use think\facade\Route;
 
-Route::auto();
+Route::any('/getToken', 'index/getToken');
